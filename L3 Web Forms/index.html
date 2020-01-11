@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1 align="center">Contact me using Form</h1>
+    <form action="mailto:diam@itpt.co.uk" enctype="text/plain" method="post" align="center">
+      <label>First Name: </label>
+      <input type="text" name="First Name" value="" required>
+      <br> <br>
+      <label>Last Name:</label>
+      <input type="text" name="Last Name" value="" required>
+      <br> <br>
+      <label>Please insert your DOB:</label>
+      <input type="date" name="DOB" value="" required>
+      <br> <br>
+      <label>Insert your email:</label>
+      <input type="email" name="email" value="" required>
+      <br> <br>
+      <label>Password:</label>
+      <input type="password" name="password" value="" required>
+      <br> <br>
+      <label>Please select between these 3:</label>
+      <select class="" name="Selection">
+        <option value="Coffee">Coffee</option>
+        <option value="Tee">Tee</option>
+        <option value="Juice">Juice</option>
+      </select>
+        <br> <br>
+        <label>Please upload your Resume:</label>
+        <input type="file" name="File" value="">
+        <br> <br>
+        <label>Why you become interested?:</label>
+          <br> <br>
+        <textarea name="Answer of the question" rows="8" cols="80" required></textarea>
+      <br> <br>
+      <br> <br>
+      <label>Select your interest Scale out of 10:</label>
+      <br> <br>
+      <input type="range" min="0" max="10" name="Scale" value="">
+      <br> <br>
+      <label>Please select an Option:</label>
+        <br> <br>
+      <input type="checkbox" name="Web Application Development" value="" checked>
+      <label>Web Application Development</label>
+      <br> <br>
+      <input type="checkbox" name="Server-side Development" value="">
+      <label>Server-side Development</label>
+      <br> <br>
+      <input type="checkbox" name="Client-side Development" value="">
+      <label>Client-side Development</label>
+      <br> <br>
+      <br> <br>
+      <label>What is your favourite distraction?:</label>
+      <br> <br>
+      <input type="radio" id="Books" name="drone" value="Books"
+         checked>
+      <label>Books</label>
+      <br> <br>
+      <input type="radio" id="Netflix" name="drone" value="Netflix">
+      <label>Netflix</label>
+      <br> <br>
+      <input type="radio" id="Sports" name="drone" value="Sports">
+      <label>Sports</label>
+      <br> <br>
+      <label for="ice-cream-choice">Choose an Option:</label>
+      <br> <br>
+      <label>Choose a fruit:</label>
+      <input list="Fruits" id="ice-cream-choice" name="ice-cream-choice" />
+      <datalist id="Fruits">
+      <option value="Apple">Apple
+      <option value="Orange">Orange
+      <option value="Mango">Mango
+      <option value="Peaches">Peaches
+      <option value="Banana">Banana
+      </datalist>
+      <br> <br>
+      <form>
+  <fieldset>
+    <legend><h1>Choose your favorite dish</h1></legend>
+
+    <input type="radio" id="Chicken" name="dish">
+    <label for="Chicken">Chicken</label><br/>
+
+    <input type="radio" id="Lamb" name="dish">
+    <label for="Lamb">Lamb</label><br/>
+
+    <input type="radio" id="Vegetables" name="dish">
+    <label for="Vegetables">Vegetables</label>
+  </fieldset>
+</form>
+
+
+      <br> <br>
+      <button type="submit">Submit button</button>
+      </form>
+  </body>
+</html>
